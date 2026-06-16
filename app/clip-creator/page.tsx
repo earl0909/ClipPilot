@@ -1,12 +1,5 @@
-import { GeneratorForm } from "@/components/GeneratorForm";
+import { redirect } from "next/navigation";
 
 export default function ClipCreatorPage() {
-  return (
-    <GeneratorForm
-      tool="clip-creator"
-      eyebrow="Main workspace"
-      title="Clip Creator"
-      description="Generate a complete creator-ready package for Instagram Reels and YouTube Shorts from a transcript and a plain-English description of the clip."
-    />
-  );
+  redirect("/clip-analyzer");
 }

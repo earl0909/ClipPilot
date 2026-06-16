@@ -1,13 +1,5 @@
-import { GeneratorForm } from "@/components/GeneratorForm";
+import { redirect } from "next/navigation";
 
 export default function HashtagsPage() {
-  return (
-    <GeneratorForm
-      tool="hashtags"
-      eyebrow="Hashtag generator"
-      title="Hashtag Generator"
-      description="Create relevant hashtag sets for discovery without stuffing unrelated trend tags."
-      compact
-    />
-  );
+  redirect("/campaign-analyzer");
 }

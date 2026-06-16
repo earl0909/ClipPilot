@@ -3,19 +3,19 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ClipPilot AI",
-  description: "Creator-ready streamer clip packages for Reels and Shorts."
+  title: "ClipPilot OS",
+  description: "Streamer clip and Whop campaign analysis for creator operators."
 };
 
 const navItems = [
   { href: "/", label: "Dashboard", icon: "D" },
-  { href: "/clip-creator", label: "Clip Creator", icon: "C" },
-  { href: "/hooks", label: "Hooks", icon: "H" },
-  { href: "/captions", label: "Captions", icon: "A" },
-  { href: "/hashtags", label: "Hashtags", icon: "#" },
-  { href: "/edit-notes", label: "Edit Notes", icon: "E" },
-  { href: "/tracker", label: "Tracker", icon: "T" },
-  { href: "/warmup-guide", label: "Warm-Up", icon: "W" }
+  { href: "/hooks", label: "Hook Generator", icon: "H" },
+  { href: "/clip-analyzer", label: "Clip Analyzer", icon: "C" },
+  { href: "/campaign-analyzer", label: "Campaign Analyzer", icon: "W" },
+  { href: "/youtube-seo", label: "YouTube SEO", icon: "Y" },
+  { href: "/transcript-intelligence", label: "Transcript Intel", icon: "T" },
+  { href: "/hook-library", label: "Hook Library", icon: "L" },
+  { href: "/warmup-guide", label: "Warm-Up Guide", icon: "A" }
 ];
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -29,8 +29,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 CP
               </div>
               <div>
-                <p className="text-lg font-bold leading-tight">ClipPilot AI</p>
-                <p className="text-sm text-slate-400">Streamer clip cockpit</p>
+                <p className="text-lg font-bold leading-tight">ClipPilot OS</p>
+                <p className="text-sm text-slate-400">Clipper campaign cockpit</p>
               </div>
             </div>
             <nav className="flex gap-2 overflow-x-auto px-4 pb-4 lg:block lg:space-y-1 lg:overflow-visible">
@@ -51,7 +51,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <div className="rounded-lg border border-line bg-panel p-4">
                 <p className="text-sm font-semibold text-white">Daily focus</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">
-                  Lead with the wildest moment, cut dead air, and keep the viewer asking one clear question.
+                  Lead with the wildest moment, cut dead air, and keep the viewer chasing one clear question.
                 </p>
               </div>
             </div>

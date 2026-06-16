@@ -7,7 +7,7 @@ export default function HooksPage() {
       eyebrow="Hook generator"
       title="Viral Hook Generator"
       description="Create strong first-second hooks built around one subject, one question, and the craziest moment first."
-      compact
+      outputTitle="Hook pack"
     />
   );
 }
