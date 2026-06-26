@@ -16,6 +16,7 @@ type SavedHook = {
 };
 
 const tools = [
+  { href: "/viral-shorts-script-generator", title: "Viral Shorts Script Generator", text: "Upload, describe, score, and export retention-first short-form scripts." },
   { href: "/hooks", title: "Hook Generator", text: "Generate ten first-second hooks with curiosity and retention scores." },
   { href: "/clip-analyzer", title: "Clip Analyzer", text: "Score a streamer clip, get POST or SKIP, and pull ready-to-use assets." },
   { href: "/campaign-analyzer", title: "Campaign Analyzer", text: "Extract Whop campaign rules, risks, payout details, and checklist items." },
